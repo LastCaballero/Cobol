@@ -3,8 +3,8 @@ program-id. 'sum from pipe'.
 
 data division.
 working-storage section.
-01	num	pic	9(38) value 1.
-01	amount	pic	9(38).
+01	num	pic	9(18) value 1 	usage comp.
+01	amount	pic	9(18) 		usage comp.
 
 procedure division.
 
