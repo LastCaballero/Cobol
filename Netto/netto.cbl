@@ -4,8 +4,8 @@ program-id.    'Brutto zu Netto'.
 
 data division.
 working-storage section.
-01 brutto              pic     9999V99.
-01 netto               pic     9999V99.
+01 brutto              pic     99999V99.
+01 netto               pic     99999V99.
 
 
 01 przt-vers.
@@ -32,7 +32,7 @@ working-storage section.
 procedure division.
       
 get-info.
-       	display "Dein viel aussehendes Brutto: " with no advancing
+       	display "Brutto: " with no advancing
        	accept brutto
        	exit.
 
@@ -53,6 +53,16 @@ calculate.
            	solid
        		kirche
        	)
-	display "Dein erbärmliches Netto: " netto
+	display "Dein viel aussehendes Brutto: " brutto
+
+	display "Rentenversicherung:           " betr-rte
+        display "Krankenversicherung:          " betr-krk 
+        display "Arbeitslosenversicherung:     " betr-arb 
+        display "Pflegeversicherung:           " betr-pfg
+        display "Lohnsteuer:                   " lohnst
+        display "Solidaritätszuschlag:         " solid
+       	display "Kirchensteuer:                " kirche
+
+	display "Dein erbärmliches Netto     : " netto
 	exit.
 
