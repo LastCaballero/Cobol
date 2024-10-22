@@ -7,7 +7,7 @@ WORKING-STORAGE SECTION.
 01	EN	PIC	9(10) value 10.
 01	mem	pic	9(10).
 01	args	pic	x(30).
-01	argc pic	99.
+01	argc 	pic	99.
 01	COUNTER PIC	9(10).
 
 
