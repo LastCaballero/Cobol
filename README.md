@@ -13,3 +13,11 @@ working-storage section.
 procedure division.
 ```
 Allerdings passiert bei diesem Programm noch nichts großartiges. Es ist einfach nur ein Gerüst, das von oben nach unten abgearbeitet wird. Ganz oben stehen Informationen bezüglich des Programms. Der mittlere Block würde Variablen enthalten und deklarieren. Und ganz unten würden irgendwelche Aktionen angestoßen.
+
+Der Übersicht halber die verschiedenen Divisionen
+
+
+* **identification** division.
+* **data** division.
+* **procedure** division.
+
