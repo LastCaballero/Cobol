@@ -7,9 +7,9 @@ Das Gerüst ist in etwa immer das Gleiche:
 identification division
 program-id.     'hallo'.
 
-data division
+data division.
 working-storage section.
 
 procedure division.
 ```
-Allerdings passiert bei diesem Programm noch nichts großartiges.
+Allerdings passiert bei diesem Programm noch nichts großartiges. Es ist einfach nur ein Gerüst, das von oben nach unten abgearbeitet wird. Ganz oben stehen Informationen bezüglich des Programms. Der mittlere Block würde Variablen enthalten und deklarieren. Und ganz unten würden irgendwelche Aktionen angestoßen.
